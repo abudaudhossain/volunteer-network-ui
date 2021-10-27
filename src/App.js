@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home/Home';
-import Header from './Shares/Header/Shares';
+import Header from './Shares/Header/Header';
 import Donation from './pages/Donation/Donation';
 import Events from './pages/Events/Events';
 import Blog from './pages/Blog/Blog';
@@ -29,7 +29,7 @@ function App() {
         <Route path='blog'>
           <Blog></Blog>
         </Route>
-        <Route path='register'>
+        <Route path='/register'>
           <Register></Register>
         </Route>
       </Switch>

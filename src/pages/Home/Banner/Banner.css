@@ -1,0 +1,18 @@
+.banner{
+    height: 80vh;
+    background-image:url('https://i.ibb.co/d6g0zBX/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.banner::before{
+    content:'';
+    background: #f0f0f0a6;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+.banner .text{
+    z-index: 100;
+}
